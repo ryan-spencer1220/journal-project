@@ -21,3 +21,5 @@ for (let x = 0; x < 10; x++) {
       "<br /><br />Number of consonants: 222<br /><br /></div></div>"
   );
 }
+
+console.log(myEntry.wordCounter());
