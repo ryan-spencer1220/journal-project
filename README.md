@@ -27,3 +27,12 @@ expectedOut = myEntry.vowelCounter();
 console.log(expectedOut[0])
 console.log(expectedOut[1])
 Expected outcome: 6, 15
+
+Describe : Entry.prototype.getTeaser()
+
+Test: "It will return the first 8 words of an entry"
+Code:
+let journalEntry = "This is a super long string that is for sure more than eight words."
+let myEntry = new Entry(journalEntry)
+myEntry.getTeaser;
+Expected outcome: This is a super long string that is
